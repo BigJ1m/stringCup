@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /Users/Shared/system532/stringCup
 
 date_str=$(date +%d%m)
