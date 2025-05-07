@@ -6,4 +6,4 @@ git config --local user.name "Your Name"
 
 git mv liquid/log.txt "liquid/${date_str}_log.txt"
 git commit -m "Rename and update log for $date_str"
-git push https://<YOUR_GITHUB_TOKEN>@github.com/BigJ1m/stringCup.git main
+git push https://<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>@github.com/BigJ1m/stringCup.git main
